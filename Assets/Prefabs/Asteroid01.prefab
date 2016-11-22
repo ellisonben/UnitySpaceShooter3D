@@ -42,7 +42,7 @@ GameObject:
   - 114: {fileID: 114000010253720630}
   - 114: {fileID: 114000013682462154}
   m_Layer: 0
-  m_Name: Asteroid
+  m_Name: Asteroid01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
