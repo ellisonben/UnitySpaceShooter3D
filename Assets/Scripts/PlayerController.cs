@@ -11,7 +11,7 @@ public class Boundary
 public class PlayerController : MonoBehaviour 
 {
 	private Rigidbody rb;
-	private AudioSource audio;
+	private AudioSource weaponAudio;
 	private float myTime;
 	private float nextFire;
 
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody> ();
-		audio = GetComponent<AudioSource> ();
+		weaponAudio = GetComponent<AudioSource> ();
 		myTime = 0.0f;
 		nextFire = 0.5f;
 	}
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
 			myTime = 0.0f;
 
 			//make weapon noise
-			audio.Play (); 
+			weaponAudio.Play (); 
 		}
 	}
 
